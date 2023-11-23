@@ -48,7 +48,7 @@ function moduleProject3() {
       card.appendChild(p)
     })
 
-    card.addEventListener('click', evt => {
+    card.addEventListener('click', () => {
       document.querySelectorAll('.learner-card').forEach(card => {
         card.classList.remove('active')
       } )
